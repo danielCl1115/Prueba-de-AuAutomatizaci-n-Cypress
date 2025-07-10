@@ -1,0 +1,13 @@
+{
+  "name": "prueba-cypress",
+  "version": "1.0.0",
+  "description": "Prueba técnica QA - Automatización con Cypress",
+  "scripts": {
+    "test": "cypress run",
+    "test:embarque": "cypress run --spec cypress/e2e/prueba_embarque.cy.js",
+    "cypress:open": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^14.5.1"
+  }
+}
