@@ -1,0 +1,25 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Cypress artifacts
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# Optional: VSCode settings
+.vscode/
+
+# Environment files (si usas .env)
+.env
+.env.*
+
+# OS/macOS/Windows
+.DS_Store
+Thumbs.db
+
+# Optional: Git
+.git/
